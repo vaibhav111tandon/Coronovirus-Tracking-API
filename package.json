@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Coronovirus Tracking API",
   "main": "index.js",
+  "start": "node index.js",
   "scripts": {
     "dev": "nodemon index.js"
   },
