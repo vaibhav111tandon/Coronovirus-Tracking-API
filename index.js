@@ -20,7 +20,7 @@ const covidData = [];
 
 const getData = async () => {
     const $ = await fetchData();
-    $('#main_table_countries > tbody > tr').each((index, element) => {
+    $('#main_table_countries_today > tbody > tr').each((index, element) => {
         // console.log($($(element).find('td')[0]).text());
         
         const head = $(element).find('td');
